@@ -3,8 +3,8 @@
 # Script Name:   Atividade 2.2
 # Description:   Script multifuncional de Manipulação de Arquivos
 # Repository:    Laboratório DevOps Prática 2
-# Written by:    Miguel Dias
-# Maintenance:   Miguel Dias
+# Written by:    Miguel Dias e Vinicius Gabriel
+# Maintenance:   Miguel Dias e Vinicius Gabriel
 # ------------------------------------------------------------------------ #
 # Usage: ./Atividade 2.2.sh
 # ------------------------------------------------------------------------ #
