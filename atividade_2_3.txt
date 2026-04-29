@@ -1,0 +1,13 @@
+A empresa ScreenMatch está lançando sua nova plataforma de vídeos e você é responsável por configurar o servidor web que hospedará o conteúdo. O conteúdo será majoritariamente estático (HTML, CSS, JavaScript, imagens, vídeos), mas espera-se um alto volume de tráfego desde o primeiro dia. Você precisa pesquisar, selecionar, instalar e configurar o servidor web mais adequado para esse cenário.
+Pesquisa e Seleção:
+Considerando as características do projeto (conteúdo estático + alto tráfego), qual servidor web você escolheria? Justifique sua resposta comparando Apache e Nginx.
+
+
+Resposta:
+
+Levando em consideração a situação de conteúdo estático + alto tráfego o servidor selecionado seria o “engine ex” (Ngnix). Um dos pontos fortes desse servidor é a atomização de arquivos estáticos, fornecendo um eficiente conteúdo estático, que inclui HTML, CSS, arquivos JavaScripts e imagens. Essa vantagem é viável em função do roteamento de solicitações, ou seja, quando o usuário tenta acessar a página web, o Nginx localiza a fornece rapidamente o conteúdo estático necessário. Além disso, ele pode trabalhar com várias solicitações simultaneamente, garantindo o máximo de desempenho, mesmo sob carga pesada. A indexação automática permite a recuperação e a exibição mais rápida de conteúdo estático, acelerando o tempo de resposta. Outras características como balanceamento de carga, proxy reverso.
+Em relação a arquitetura a do Ngnix, por ser uma arquitetura orientada a eventos, o que permite os processos de trabalhos do Ngnix aceitarem milhares de conexões simultâneas, diferente de outros servidores que precisam criar um processo para cada solicitação.
+
+Referências:
+https://www.hostinger.com/br/tutoriais/o-que-e-nginx
+https://www.ibm.com/br-pt/think/topics/apache-server
